@@ -2,7 +2,7 @@ var now=new Date;
 function createtime()
 {
   now.setTime(now.getTime()+1e3);
-  var e=new Date("08/01/2022 00:00:00"),
+  var e=new Date("08/01/2023 00:00:00"),
   t=Math.trunc(234e8+(now-e)/1e3*17),
   a=(t/1496e5).toFixed(6),
   o=new Date("08/09/2022 00:00:00"),
